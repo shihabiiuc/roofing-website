@@ -376,7 +376,7 @@ li {
 #contact {
   padding: 90px 15px;
   background-color: #0a0d12;
-  background-image: url(./img/binding_dark.gif);
+  background-image: url(./img/criss-cross.png);
   .contact-wrapper {
     @media (min-width: 768px) {
       max-width: 1200px;
@@ -389,14 +389,14 @@ li {
         align-items: flex-start;
       }
       .greeting {
-        color: #FFFFFF;
+        color: #000000;
         margin-bottom: 60px;
         @media (min-width: 768px) {
           flex-basis: 50%;
         }
       }
       .contact-method {
-        background-color: #A6E2FF;
+        background-image: linear-gradient(270deg,#f1fcfb,#f0f9fd 60%,#faf4fd);
         padding: 20px 10px;
         border: 1px solid #5ecbff;
         border-radius: 4px;
